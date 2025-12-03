@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" aria-label="WEB STUDIO logo">
+  <defs>
+    <linearGradient id="neon" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#8A63FF"/>
+      <stop offset="50%" stop-color="#00E5FF"/>
+      <stop offset="100%" stop-color="#A6FF3D"/>
+    </linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="3" result="b"/>
+      <feMerge>
+        <feMergeNode in="b"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <rect x="4" y="4" width="56" height="56" rx="16" fill="#0f1320" stroke="url(#neon)" stroke-width="2"/>
+  <text x="50%" y="58%" text-anchor="middle" font-size="26" font-weight="800" font-family="Inter, Arial, system-ui" fill="url(#neon)" filter="url(#glow)">WS</text>
+</svg>
+
